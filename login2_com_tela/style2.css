@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+
+:root{
+    --cor-prin: #50336b;
+    --cor-sec: #07090a;
+    --cor-white:#f3f3f3;
+}
+    
+
+/*Tela de login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    justify-content: center;
+    align-items: 100vh;
+    min-height: 100vh;
+    background: var(--cor-prin);
+}
+h2{
+    color: var(--cor-white);
+}
+
+.container {
+    background: var(--cor-sec);
+    margin: 50px;
+    width: 550px;
+    height: 800px;
+}
+
+.formula h2 {
+    margin: 5px;
+}
+
+.formula button {
+    margin: 10px 0 0 200px;
+}
+
+.titulo {
+    width: 300px;
+    color: var(--cor-white);
+    margin: 5px;
+    color: var(--cor-prin);
+    font-style: italic;
+}
+.tipo label{
+    display: block;
+    color: var(--cor-prin);
+    margin-bottom: 1px;
+    font-size: 24px;
+    margin: 0 0 0 5px;
+}
+.tipo input{
+    margin: 0 0 0 15px;
+}
+.tipo h1{
+    color: var(--cor-white);
+}
+
+.escolha label{
+    display: block;
+    color: var(--cor-prin);
+    margin-bottom: 2px 0 5px 5px;
+    margin: 0 0 0 5px;
+    font-size: 25px;
+}
+
+.escolha input{
+    width: 200px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.escolha h1{
+    color: var(--cor-white);
+}
+.resultt button{
+    background-color: #4CAF50; 
+    border: none;
+    color: var(--cor-prin);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.resultt .php {
+    display: flex;
+    width: 200px;
+    padding: 15px 30px 15px 50px;
+    margin: 3px 0 0 165px;
+    box-sizing: border-box;
+    background: rgb(241, 240, 238);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
